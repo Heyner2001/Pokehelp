@@ -1,0 +1,6 @@
+framework module Pods_PokehelpTests {
+  umbrella header "Pods-PokehelpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
