@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6C60D86D32B2396111B4B069 /* Pods_PokehelpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31087C4632233489C9EB7B37 /* Pods_PokehelpTests.framework */; };
 		7F89AB06B363B4C596317241 /* Pods_Pokehelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2371F56A381CCC817BBF88 /* Pods_Pokehelp.framework */; };
+		BC7DBC2A2BC9B93A001332E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DBC292BC9B93A001332E1 /* HomeViewController.swift */; };
+		BC7DBC2D2BC9BBC8001332E1 /* CommonColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DBC2C2BC9BBC8001332E1 /* CommonColors.swift */; };
 		BC95F7D12BC8770D0067EECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95F7D02BC8770D0067EECD /* AppDelegate.swift */; };
 		BC95F7D32BC8770D0067EECD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95F7D22BC8770D0067EECD /* SceneDelegate.swift */; };
 		BC95F7DB2BC8770D0067EECD /* Pokehelp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC95F7D92BC8770D0067EECD /* Pokehelp.xcdatamodeld */; };
@@ -17,6 +19,7 @@
 		BC95F7EB2BC877100067EECD /* PokehelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95F7EA2BC877100067EECD /* PokehelpTests.swift */; };
 		BC95F7F52BC877100067EECD /* PokehelpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95F7F42BC877100067EECD /* PokehelpUITests.swift */; };
 		BC95F7F72BC877100067EECD /* PokehelpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95F7F62BC877100067EECD /* PokehelpUITestsLaunchTests.swift */; };
+		BCA8E42A2BC9D178005087BB /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA8E4292BC9D178005087BB /* CustomNavigationBar.swift */; };
 		DB995C9C0175060F3A20C6FE /* Pods_Pokehelp_PokehelpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61B280522782D8B14AD2712 /* Pods_Pokehelp_PokehelpUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +46,8 @@
 		31087C4632233489C9EB7B37 /* Pods_PokehelpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokehelpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		455A4CB55BA999F5E7D95E1D /* Pods-Pokehelp-PokehelpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokehelp-PokehelpUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pokehelp-PokehelpUITests/Pods-Pokehelp-PokehelpUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A398E09232B023EC1873739E /* Pods-Pokehelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokehelp.release.xcconfig"; path = "Target Support Files/Pods-Pokehelp/Pods-Pokehelp.release.xcconfig"; sourceTree = "<group>"; };
+		BC7DBC292BC9B93A001332E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BC7DBC2C2BC9BBC8001332E1 /* CommonColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonColors.swift; sourceTree = "<group>"; };
 		BC95F7CD2BC8770D0067EECD /* Pokehelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokehelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC95F7D02BC8770D0067EECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC95F7D22BC8770D0067EECD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +60,7 @@
 		BC95F7F02BC877100067EECD /* PokehelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokehelpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC95F7F42BC877100067EECD /* PokehelpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokehelpUITests.swift; sourceTree = "<group>"; };
 		BC95F7F62BC877100067EECD /* PokehelpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokehelpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCA8E4292BC9D178005087BB /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		C61B280522782D8B14AD2712 /* Pods_Pokehelp_PokehelpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokehelp_PokehelpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38C2F8E9C9DD33AE6636069 /* Pods-Pokehelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokehelp.debug.xcconfig"; path = "Target Support Files/Pods-Pokehelp/Pods-Pokehelp.debug.xcconfig"; sourceTree = "<group>"; };
 		E203544DECBC2B41CE9CB825 /* Pods-Pokehelp-PokehelpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokehelp-PokehelpUITests.release.xcconfig"; path = "Target Support Files/Pods-Pokehelp-PokehelpUITests/Pods-Pokehelp-PokehelpUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +114,47 @@
 			path = "Project configuration";
 			sourceTree = "<group>";
 		};
+		BC7DBC252BC9B42F001332E1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BC7DBC262BC9B4BC001332E1 /* Model */,
+				BC7DBC272BC9B4C1001332E1 /* View */,
+				BC7DBC282BC9B4C6001332E1 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BC7DBC262BC9B4BC001332E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC7DBC272BC9B4C1001332E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC7DBC292BC9B93A001332E1 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC7DBC282BC9B4C6001332E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC7DBC2B2BC9BA41001332E1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8E42B2BC9D421005087BB /* CustomNavBar */,
+				BC7DBC2C2BC9BBC8001332E1 /* CommonColors.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		BC95F7C42BC8770D0067EECD = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				BC2FDD4A2BC88E1B00A959D8 /* Project configuration */,
+				BC7DBC252BC9B42F001332E1 /* Home */,
+				BC7DBC2B2BC9BA41001332E1 /* Common */,
 				BC95F7DC2BC8770F0067EECD /* Assets.xcassets */,
 				BC95F7DE2BC8770F0067EECD /* LaunchScreen.storyboard */,
 				BC95F7E12BC8770F0067EECD /* Info.plist */,
@@ -157,6 +206,14 @@
 				BC95F7F62BC877100067EECD /* PokehelpUITestsLaunchTests.swift */,
 			);
 			path = PokehelpUITests;
+			sourceTree = "<group>";
+		};
+		BCA8E42B2BC9D421005087BB /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8E4292BC9D178005087BB /* CustomNavigationBar.swift */,
+			);
+			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
 		CBACD58894A5A9575DA41C02 /* Pods */ = {
@@ -374,9 +431,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA8E42A2BC9D178005087BB /* CustomNavigationBar.swift in Sources */,
 				BC95F7DB2BC8770D0067EECD /* Pokehelp.xcdatamodeld in Sources */,
 				BC95F7D12BC8770D0067EECD /* AppDelegate.swift in Sources */,
 				BC95F7D32BC8770D0067EECD /* SceneDelegate.swift in Sources */,
+				BC7DBC2A2BC9B93A001332E1 /* HomeViewController.swift in Sources */,
+				BC7DBC2D2BC9BBC8001332E1 /* CommonColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
