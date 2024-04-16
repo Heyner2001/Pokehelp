@@ -95,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A8D63862BCDAD1300FF3D00 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BC95F7DC2BC8770F0067EECD /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		490C80AE7F841A69EE3FD752 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,7 +191,7 @@
 				BC2FDD4A2BC88E1B00A959D8 /* Project configuration */,
 				BC7DBC252BC9B42F001332E1 /* Home */,
 				BC7DBC2B2BC9BA41001332E1 /* Common */,
-				BC95F7DC2BC8770F0067EECD /* Assets.xcassets */,
+				3A8D63862BCDAD1300FF3D00 /* Assets */,
 				BC95F7DE2BC8770F0067EECD /* LaunchScreen.storyboard */,
 				BC95F7E12BC8770F0067EECD /* Info.plist */,
 				BC95F7D92BC8770D0067EECD /* Pokehelp.xcdatamodeld */,
