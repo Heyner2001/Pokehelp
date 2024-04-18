@@ -25,22 +25,11 @@ class CustomNavigationBar: UINavigationBar {
 
     private lazy var customTitleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Dummy Title"
+        label.text = "PokeHelp"
         label.textColor = UIColor.white
-        label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        label.font = UIFont.systemFont(ofSize: 22, weight: .bold)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
-    }()
-    
-    private lazy var dynamicButton: UIButton = {
-        let button = UIButton()
-        button.backgroundColor = UIColor.clear
-        let dummyIcon = UIImage(systemName: "arrow.left")
-        button.setImage(dummyIcon, for: .normal)
-        button.tintColor = UIColor.gray
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.addTarget(self, action: #selector(self.buttonAction), for: .touchUpInside)
-        return button
     }()
 
     override init(frame: CGRect) {
@@ -68,7 +57,6 @@ class CustomNavigationBar: UINavigationBar {
         
         self.navBarContainer.addSubview(self.contentImageView)
         self.navBarContainer.addSubview(self.customTitleLabel)
-        self.navBarContainer.addSubview(self.dynamicButton)
     }
 
     private func setUpConstraints() {
@@ -94,23 +82,11 @@ class CustomNavigationBar: UINavigationBar {
             self.customTitleLabel.centerXAnchor.constraint(equalTo: self.navBarContainer.centerXAnchor),
             self.customTitleLabel.centerYAnchor.constraint(equalTo: self.navBarContainer.centerYAnchor)
         ]
-        
-        let dynamicButtonConstrains = [
-            self.dynamicButton.centerXAnchor.constraint(equalTo: self.contentImageView.centerXAnchor),
-            self.dynamicButton.centerYAnchor.constraint(equalTo: self.contentImageView.centerYAnchor),
-            self.dynamicButton.heightAnchor.constraint(equalToConstant: navBarHeight / 3),
-            self.dynamicButton.widthAnchor.constraint(equalToConstant: navBarHeight / 3)
-        ]
-        
+
         NSLayoutConstraint.activate(
             contentImageViewConstraints +
             navBarContainerConstrains +
-            customTitleLabelConstraints +
-            dynamicButtonConstrains
+            customTitleLabelConstraints
         )
-    }
-
-    @objc private func buttonAction() {
-        print("Button has taped")
     }
 }
