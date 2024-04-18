@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A8DD5492BCF170D00763951 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DD5482BCF170D00763951 /* HomeView.swift */; };
+		3A8DD54B2BCF233F00763951 /* HomeTableContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DD54A2BCF233F00763951 /* HomeTableContentViewCell.swift */; };
+		3A8DD54F2BD06C6D00763951 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DD54E2BD06C6D00763951 /* CustomNavigationController.swift */; };
 		6C60D86D32B2396111B4B069 /* Pods_PokehelpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31087C4632233489C9EB7B37 /* Pods_PokehelpTests.framework */; };
 		7F89AB06B363B4C596317241 /* Pods_Pokehelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2371F56A381CCC817BBF88 /* Pods_Pokehelp.framework */; };
 		BC7DBC2A2BC9B93A001332E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DBC292BC9B93A001332E1 /* HomeViewController.swift */; };
@@ -44,6 +47,9 @@
 		1C2371F56A381CCC817BBF88 /* Pods_Pokehelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokehelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA3DDCAD20766F3122EA87F /* Pods-PokehelpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokehelpTests.debug.xcconfig"; path = "Target Support Files/Pods-PokehelpTests/Pods-PokehelpTests.debug.xcconfig"; sourceTree = "<group>"; };
 		31087C4632233489C9EB7B37 /* Pods_PokehelpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokehelpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8DD5482BCF170D00763951 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3A8DD54A2BCF233F00763951 /* HomeTableContentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableContentViewCell.swift; sourceTree = "<group>"; };
+		3A8DD54E2BD06C6D00763951 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		455A4CB55BA999F5E7D95E1D /* Pods-Pokehelp-PokehelpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokehelp-PokehelpUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pokehelp-PokehelpUITests/Pods-Pokehelp-PokehelpUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A398E09232B023EC1873739E /* Pods-Pokehelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokehelp.release.xcconfig"; path = "Target Support Files/Pods-Pokehelp/Pods-Pokehelp.release.xcconfig"; sourceTree = "<group>"; };
 		BC7DBC292BC9B93A001332E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,14 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		3A8DD54C2BD06BDE00763951 /* CustomNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DD54E2BD06C6D00763951 /* CustomNavigationController.swift */,
+			);
+			path = CustomNavigationController;
+			sourceTree = "<group>";
+		};
 		490C80AE7F841A69EE3FD752 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				BC7DBC292BC9B93A001332E1 /* HomeViewController.swift */,
+				3A8DD5482BCF170D00763951 /* HomeView.swift */,
+				3A8DD54A2BCF233F00763951 /* HomeTableContentViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +173,7 @@
 		BC7DBC2B2BC9BA41001332E1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3A8DD54C2BD06BDE00763951 /* CustomNavigationController */,
 				BCA8E42B2BC9D421005087BB /* CustomNavBar */,
 				BC7DBC2C2BC9BBC8001332E1 /* CommonColors.swift */,
 			);
@@ -439,7 +456,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8DD54B2BCF233F00763951 /* HomeTableContentViewCell.swift in Sources */,
 				BCA8E42A2BC9D178005087BB /* CustomNavigationBar.swift in Sources */,
+				3A8DD5492BCF170D00763951 /* HomeView.swift in Sources */,
+				3A8DD54F2BD06C6D00763951 /* CustomNavigationController.swift in Sources */,
 				BC95F7DB2BC8770D0067EECD /* Pokehelp.xcdatamodeld in Sources */,
 				BC95F7D12BC8770D0067EECD /* AppDelegate.swift in Sources */,
 				BC95F7D32BC8770D0067EECD /* SceneDelegate.swift in Sources */,

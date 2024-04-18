@@ -8,6 +8,7 @@
 import UIKit
 
 class CustomNavigationBar: UINavigationBar {
+    public static let customNavigationBarHeight = 80.0
     private lazy var navBarContainer: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.defaultRedColor
@@ -48,7 +49,7 @@ class CustomNavigationBar: UINavigationBar {
                         x: 0,
                         y: 0,
                         width: UIScreen.main.bounds.width,
-                        height: 120
+                        height: Self.customNavigationBarHeight
                     )
         )
         self.backgroundColor = UIColor.clear
@@ -84,18 +85,14 @@ class CustomNavigationBar: UINavigationBar {
             self.contentImageView.leftAnchor.constraint(
                 equalTo: self.navBarContainer.leftAnchor,
                 constant: navBarHeight * -0.18),
-            self.contentImageView.centerYAnchor.constraint(
-                equalTo: self.navBarContainer.centerYAnchor,
-                constant: navBarContainerHeight / 4),
+            self.contentImageView.centerYAnchor.constraint(equalTo: self.navBarContainer.centerYAnchor),
             self.contentImageView.widthAnchor.constraint(equalToConstant: navBarHeight),
             self.contentImageView.heightAnchor.constraint(equalToConstant: navBarHeight)
         ]
 
         let customTitleLabelConstraints = [
             self.customTitleLabel.centerXAnchor.constraint(equalTo: self.navBarContainer.centerXAnchor),
-            self.customTitleLabel.centerYAnchor.constraint(
-                equalTo: self.navBarContainer.centerYAnchor,
-                constant: navBarContainerHeight / 4)
+            self.customTitleLabel.centerYAnchor.constraint(equalTo: self.navBarContainer.centerYAnchor)
         ]
         
         let dynamicButtonConstrains = [

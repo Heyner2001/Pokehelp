@@ -21,4 +21,11 @@ extension UIColor {
         blue: 42/255,
         alpha: 1.0
     )
+    
+    static let backgroundPlaceholderColor = UIColor(
+        red: 239/255,
+        green: 236/255,
+        blue: 216/255,
+        alpha: 1.0
+    )
 }
