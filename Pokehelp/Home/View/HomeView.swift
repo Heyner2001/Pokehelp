@@ -41,7 +41,6 @@ class HomeView: UIView {
             self.ilusrtrationImageView.heightAnchor.constraint(equalToConstant: 200)
         ]
 
-        NSLayoutConstraint.activate(
-            ilusrtrationImageViewConstraints        )
+        NSLayoutConstraint.activate(ilusrtrationImageViewConstraints)
     }
 }

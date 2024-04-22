@@ -32,7 +32,7 @@ class HomeViewController: UIViewController {
             self.homeView.rightAnchor.constraint(equalTo: self.view.rightAnchor),
             self.homeView.topAnchor.constraint(
                 equalTo: self.view.topAnchor,
-                constant: CustomNavigationBar.customNavigationBarHeight
+                constant: CustomNavigationBar.safeAreaTopInset
             ),
             self.homeView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
         ]

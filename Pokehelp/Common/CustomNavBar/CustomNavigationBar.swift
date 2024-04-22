@@ -8,7 +8,17 @@
 import UIKit
 
 class CustomNavigationBar: UINavigationBar {
-    public static let customNavigationBarHeight = 80.0
+    private static let notchHeight: Double = {
+        let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+        let window = scene?.windows.first
+        return Double(window?.safeAreaInsets.top ?? 0)
+    }()
+    
+    private static let customNavigationBarHeight = 80.0
+    public static let safeAreaTopInset: Double = {
+        return CustomNavigationBar.notchHeight + CustomNavigationBar.customNavigationBarHeight
+    }()
+
     private lazy var navBarContainer: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.defaultRedColor
@@ -36,7 +46,7 @@ class CustomNavigationBar: UINavigationBar {
         super.init(frame:
                     CGRect(
                         x: 0,
-                        y: 0,
+                        y: Self.notchHeight,
                         width: UIScreen.main.bounds.width,
                         height: Self.customNavigationBarHeight
                     )
